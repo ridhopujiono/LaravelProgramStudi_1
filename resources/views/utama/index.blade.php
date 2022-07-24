@@ -296,7 +296,7 @@
         </div>
     </div>
     </div>
-    <a href="#navbar" class="circle d-flex justify-content-center"
+    <a href="#navbar" class="circle justify-content-center d-none"
         style="
         position: fixed;
         right: 20px;
@@ -315,5 +315,12 @@
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
     </script>
 </body>
+
+<script>
+    window.addEventListener('scroll', function() {
+        document.querySelector(".circle").classList.add('d-flex')
+        document.querySelector(".circle").classList.remove('d-none')
+    })
+</script>
 
 </html>
