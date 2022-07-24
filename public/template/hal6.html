@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Load file CSS Bootstrap offline -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+        <nav
+        class="navbar navbar-expand-lg navbar"
+      >
+        <div class="container">
+          <img src="logo1.png">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-right" id="navbarText">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <span class=" lingkaran"><i style="color: rgb(68, 68, 165);" class="fas fa-angle-left fa-1x"></i></span>
+                <a href="index.html">Home</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<div class="container">
+<h2>Form Pendaftaran Anggota</h2>
+    <form action="simpan-pendaftaran.php" method="post">
+        <div class="form-group">
+            <label>Username:</label>
+            <input type="text" name="username" class="form-control" placeholder="Masukan Username" />
+        </div>
+	<div class="form-group">
+            <label>Nama:</label>
+            <input type="text" name="nama" class="form-control" placeholder="Masukan Nama" />
+        </div>
+	<div class="form-group">
+	     <label>Alamat:</label>
+	     <textarea name="alamat" class="form-control" rows="5"placeholder="Masukan Alamat" ></textarea>
+	</div> 
+	<div class="form-group">
+            <label>Email:</label>
+            <input type="email" name="email" class="form-control" placeholder="Masukan Email" />
+        </div>
+	<div class="form-group">
+            <label>No HP:</label>
+            <input type="number" name="no_hp" class="form-control" placeholder="Masukan No HP" />
+        </div>
+	<div class="form-group">
+            <label>Password:</label>
+            <input type="password" name="password" class="form-control" placeholder="Masukan Password" />
+        </div>
+
+        <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+
+    </form>
+</div>
+</body>
+</html>
