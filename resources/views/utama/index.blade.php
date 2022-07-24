@@ -296,11 +296,7 @@
         </div>
     </div>
     </div>
-    <style>
-        .circle {
-            cursor: pointer
-        }
-    </style>
+
     <a href="#navbar" class="circle justify-content-center d-none"
         style="
         position: fixed;
@@ -312,6 +308,7 @@
         height: 55px;
         align-items: center;
         color: white;
+        cursor: pointer;
         box-shadow: 1px 1px 7px 0px #787878;
     ">
         <div class="fas fa-arrow-alt-up"></div>
