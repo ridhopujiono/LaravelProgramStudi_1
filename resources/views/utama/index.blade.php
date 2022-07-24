@@ -296,6 +296,11 @@
         </div>
     </div>
     </div>
+    <style>
+        .circle {
+            cursor: pointer
+        }
+    </style>
     <a href="#navbar" class="circle justify-content-center d-none"
         style="
         position: fixed;
